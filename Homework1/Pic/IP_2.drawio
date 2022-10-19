@@ -1,0 +1,139 @@
+<mxfile host="65bd71144e">
+    <diagram id="TJbSUauwz9XmKrZzxrTD" name="Page-1">
+        <mxGraphModel dx="2134" dy="1897" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;fontSize=18;fontColor=#000000;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="40" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Sender application program" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="40" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#65899e&quot;&gt;Datagram with &lt;br&gt;destination &lt;br&gt;address&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="130" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="40" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Internet module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="220" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;dashed=1;dashPattern=1 1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="325"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;font color=&quot;#65899e&quot;&gt;Determine a &lt;br&gt;local network &lt;br&gt;address&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="290" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="8" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="40" y="490"/>
+                            <mxPoint x="380" y="490"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Local network interface 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="390" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#65899e&quot;&gt;prepare a&lt;br&gt;datagram header&lt;br&gt;&amp;amp; attache the&lt;br&gt;datagram&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-190" y="205" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#65899e&quot;&gt;Create a&lt;br&gt;local network&lt;br&gt;header &amp;amp; &lt;br&gt;attache the&lt;br&gt;&lt;div&gt;&lt;span&gt;datagram&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-175" y="360" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font color=&quot;#65899e&quot;&gt;Send the result &lt;br&gt;via the local network&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="440" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Local network interface 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="390" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Internet module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="220" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font color=&quot;#65899e&quot;&gt;Strip off &lt;br&gt;this header&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="310" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#65899e&quot;&gt;Determine from the internet address&lt;br&gt;that the datagram is to be forward to another&lt;br&gt;host in a second network&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="150" width="370" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="23" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="660" y="490"/>
+                            <mxPoint x="960" y="490"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Local network interface 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="390" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="19" target="23">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="310" as="sourcePoint"/>
+                        <mxPoint x="480" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;dashed=1;dashPattern=1 1;exitX=0.8;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="920" y="335"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&lt;font color=&quot;#65899e&quot;&gt;Determine a &lt;br&gt;local network &lt;br&gt;address&lt;br&gt;(destination host)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="290" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="26" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;font color=&quot;#65899e&quot;&gt;Create a&lt;br&gt;local network header &amp;amp; &lt;br&gt;attache the&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(101 , 137 , 158)&quot;&gt;datagram&lt;/span&gt;&lt;font color=&quot;#65899e&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="450" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Local network interface 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="390" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font color=&quot;#65899e&quot;&gt;Strip off &lt;br&gt;this header&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="310" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;fontColor=#65899E;strokeColor=#65899E;strokeWidth=5;" edge="1" parent="1" source="34" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Internet module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="220" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#65899e&quot;&gt;Send the result &lt;br&gt;via the local network&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="440" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;font color=&quot;#65899e&quot;&gt;Determine that &lt;br&gt;the datagram is &lt;br&gt;for an application &lt;br&gt;program in the host&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="205" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Receiver application program" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=4;fontColor=#000000;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="40" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;font color=&quot;#65899e&quot;&gt;Pass the &lt;br&gt;data&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="150" width="90" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
